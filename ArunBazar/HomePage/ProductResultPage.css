@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+.logoName {
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.logoName:hover {
+  transform: scale(1.1);
+}
+input::placeholder {
+  font-weight: 600;
+}
+.logoName::selection {
+  background-color: white;
+  color: black;
+}
+.responsive-width {
+  width: 75%; /* Default width for extra small and small screens */
+}
+
+@media (min-width: 768px) {
+  .responsive-width {
+    width: 50%; /* Medium screens and larger */
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-width {
+    width: 25%; /* Extra large screens and larger */
+  }
+}
+.zoomOutProducts {
+  transition: transform 0.3s ease;
+}
+.zoomOutProducts:hover {
+  transform: scale(1.1);
+}
+.stock_msg_alert {
+  animation: alertZoom 2s infinite ease;
+}
+@keyframes alertZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+#custom_price_range {
+  -webkit-appearance: none;
+  width: 100%;
+  width: 200px;
+  height: 8px;
+  background: #000;
+}
+#custom_price_range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -5px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: 8px solid teal;
+}
+#custom_price_range::-webkit-slider-runnable-track {
+  background: #dddd;
+  height: 10px;
+}
+label {
+  cursor: pointer;
+}
+.reduce_length {
+  height: 50px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: black;
+}
+.reduce_length:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.showFullContent:hover {
+  color: #ff9800;
+  cursor: pointer;
+}
+.laptop_store {
+  text-decoration: none;
+}
+.laptop_store:hover {
+  text-decoration: underline;
+  text-decoration-color: dark;
+}
+.see_more_specs {
+  text-decoration: none;
+}
+.see_more_specs:hover {
+  text-decoration: underline;
+}
+.set_white:hover {
+  background-color: white;
+}
+.summary_icon {
+  color: black;
+}
+.summary_text {
+  color: rgb(70, 129, 140);
+  cursor: pointer;
+}
+.summary_text:hover {
+  color: black;
+}
+.o_t_d_text {
+  color: rgb(70, 129, 140);
+}
+.o_t_d_text:hover {
+  color: black;
+}
+.additional_details_text {
+  color: rgb(70, 129, 140);
+  cursor: pointer;
+}
+.additional_details_text:hover {
+  color: black;
+}
+@media (min-width: 576px) {
+  .Additional_Details {
+    position: absolute;
+  }
+}

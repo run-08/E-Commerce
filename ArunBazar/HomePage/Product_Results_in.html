@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArunBazar.com : Laptop_in</title>
+    <link
+      rel="stylesheet"
+      href="../HomePage/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pj1FJ6xAqz/05zjA4C4/tD2ftNsYwCH4mCQLT91yRn2kGpHttO51CVK6XPLcLg03"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../HomePage/ProductResultPage.css" />
+  </head>
+  <body>
+    <div class="container-fluid topBar bg-dark py-2 text-white">
+      <div class="row">
+        <!-- col - 3 -->
+        <div class="col-sm-4 col-md-3 col-xxl-2 py-xxs-5 left text-white">
+          <div class="d-md-flex justify-content-between">
+            <div class="fs-6 px-2 py-3 logoName">ArunBazar.com</div>
+            <div
+              class="fs-6 border rounded-1 px-xxl-4 col-xs-12 align-content-center px-3 text-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-map-pin"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Deliver to Dindigul
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <!-- End of col-3 -->
+        <div
+          class="col-sm-6 col-md-6 col-lg-6 col-xxl-7 px-5 py-md-2 py-xs-5 px-xxl-0 middle"
+        >
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-text">All</div>
+              <input
+                type="text"
+                name="searchBar"
+                id="searchBar"
+                class="form-control"
+                placeholder="You Are Looking for... "
+                style="font-weight: bold"
+              />
+              <div class="input-group-text bg-warning px-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="black"
+                >
+                  <path
+                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!-- Search Options(Trie) -->
+            <div
+              class="search_options bg-secondary-subtle mt-3 rounded-1"
+              style="cursor: pointer"
+            ></div>
+            <!-- End Of Search Operations -->
+            <!-- End Of Form-group -->
+          </div>
+          <!-- End Of Input-group -->
+        </div>
+        <!-- End of Col-6  -->
+        <div
+          class="col-sm-8 col-xsm-12 col-md-6 col-xl-3 py-sm-5 py-xl-0 px-sm-5 px-xl-0 text-white"
+        >
+          <div class="d-flex justify-content-center">
+            <div class="dropdown dropend">
+              <button
+                class="btn text-white dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                EN
+              </button>
+              <div
+                class="dropdown-menu dropdown-menu-dark text-white pl-5 py-3"
+              >
+                <div class="dropdown-item fs-6">EN</div>
+                <div class="dropdown-item">
+                  <hr class="dropdown-divider" />
+                </div>
+                <div class="dropdown-item fs-6">Tamil</div>
+                <div class="dropdown-item fs-6">Europe</div>
+                <div class="dropdown-item fs-6">Arabic</div>
+                <div class="dropdown-item fs-6">Japanese</div>
+              </div>
+              <!-- Dropdown-menu End -->
+            </div>
+            <!-- Dropdown End -->
+            <!-- User-details  -->
+            <div class="user-details px-sm-5 px-xl-2">
+              <div class="fs-6">Hello , Signin</div>
+              <div class="h6 text-decoration-underline">Account & Lists</div>
+            </div>
+            <!-- User-details End -->
+            <!-- Orders-start -->
+            <div class="user-orders py-2 px-sm-5 px-xl-1">
+              <div class="text-decoration-underline">Return & Orders</div>
+            </div>
+            <!-- Orders-End -->
+            <!-- Cart -->
+            <div class="cart-details px-sm-5 text-nowrap px-xl-3 py-2">
+              <i class="fs-1 fa fa-solid fa-cart-arrow-down"></i>
+              <small>Add To You Cart</small>
+            </div>
+            <!-- End Of Cart -->
+          </div>
+          <!-- Flex End -->
+        </div>
+        <!-- End of Col-3  -->
+      </div>
+      <!-- End Of Row -->
+    </div>
+    <!-- End Of nav Bar -->
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <!-- Starts of Inner NavBar -->
+    <div class="container-fluid" style="background-color: #232f3e">
+      <!-- List of InnerNavPageContents Starts Here -->
+      <ul
+        class="list-inline text-wrap innerNavBar d-md-flex-column d-xl-flex-row justify-content-start"
+      >
+        <li
+          class="list-inline-item innerNavBarToggle rounded-1 px-2 align-content-center border"
+          style="cursor: pointer"
+        >
+          <i class="fa-thin fa-bars fa fs-4 text-white"></i>
+
+          <div
+            class="badge fs-4"
+            style="
+              font-family: Roboto Mono, serif;
+              font-optical-sizing: auto;
+              font-weight: bold;
+            "
+          >
+            All
+          </div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Today's Teals</div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Buy Again</div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Customer Service</div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Gift Cards</div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Registry</div>
+        </li>
+        <li
+          class="list-inline-item px-1 rounded-1 align-content-center border"
+          style="cursor: pointer"
+        >
+          <div class="badge text-white fs-6">Sell</div>
+        </li>
+      </ul>
+      <!-- List of InnerNavPageContents Ends Here -->
+    </div>
+    <!-- Ends of Inner NabBar -->
+    <br />
+    <div class="container-fluid position-absolute z-2 innerPage d-none">
+      <!-- Row Starts -->
+
+      <div
+        class="row border border-dark w-sm-100 w-md-50 w-25 bg-secondary-subtle"
+      >
+        <!-- Col 1 Starts Here  -->
+        <div class="col-sm-12" style="background-color: #232f3e">
+          <span class="fw-bold text-white h3 d-flex justify-content-between"
+            ><button class="border border-white rounded-circle mt-2">
+              <i class="fa-solid fa-user fa py-2 px-3"></i>
+            </button>
+            <div
+              class="badge py-4"
+              style="
+                font-family: Roboto Mono, serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;
+              "
+            >
+              Hello, User
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="45"
+              viewBox="0 0 24 24"
+              fill="red"
+              stroke="rgba(0,0,0,0.7)"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-x-circle"
+              style="cursor: pointer"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="15" y1="9" x2="9" y2="15"></line>
+              <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+          </span>
+        </div>
+
+        <!-- Col 1 Ends Here -->
+        <!-- Col 2 Starts Here   -->
+
+        <div class="col-sm-12 row mt-2">
+          <ul
+            class="fw-bold h3 fs-3 text-wrap d-inline col-sm-12 Products"
+            style="
+              font-family: Roboto Mono, serif;
+              font-optical-sizing: auto;
+              font-weight: bold;
+              font-style: normal;
+            "
+          >
+            <i class="fa fa-solid fa-tags"></i>
+            Shop & Products
+          </ul>
+          <div class="products-items px-3 py-3">
+            <li class="fw-bold py-2 d-flex justify-content-between">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >Electronics</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <li class="d-flex justify-content-between py-1">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >Watches</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <li class="d-flex justify-content-between fw-bold py-1">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >Clothes</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <li class="d-flex justify-content-between fw-bold py-1">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >EarBuds</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <li class="d-flex justify-content-between fw-bold py-1">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >Mobile Phones</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <li class="d-flex justify-content-between fw-bold py-1">
+              <a
+                href="#"
+                class="text-decoration-none text-secondary fw-bold px-3 lead"
+                >Laptops</a
+              >
+              <i
+                class="fa fa-solid fa-chevron-right text-secondary py-1"
+                style="cursor: pointer"
+              ></i>
+            </li>
+            <hr />
+            <!-- Start of See More -->
+            <div class="see_more d-none">
+              <li class="d-flex justify-content-between fw-bold py-1">
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold px-3 lead"
+                  >Beauty And Personal Care</a
+                >
+                <i
+                  class="fa fa-solid fa-chevron-right text-secondary py-1"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+              <hr />
+              <li class="d-flex justify-content-between fw-bold py-1">
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold px-3 lead"
+                  >Health And Household
+                </a>
+                <i
+                  class="fa fa-solid fa-chevron-right text-secondary py-1"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+              <hr />
+              <li class="d-flex justify-content-between fw-bold py-1">
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold px-3 lead"
+                  >Video Games</a
+                >
+                <i
+                  class="fa fa-solid fa-chevron-right text-secondary py-1"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+              <hr />
+              <li class="d-flex justify-content-between fw-bold py-1">
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold px-3 lead"
+                  >Sports and Outdoors</a
+                >
+                <i
+                  class="fa fa-solid fa-chevron-right text-secondary py-1"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+              <hr />
+              <li class="d-flex justify-content-between fw-bold py-1">
+                <a
+                  href="#"
+                  class="text-decoration-none text-secondary fw-bold px-3 lead"
+                  >Pet Supplies</a
+                >
+                <i
+                  class="fa fa-solid fa-chevron-right text-secondary py-1"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+            </div>
+            <!-- End Of See More -->
+            <span
+              class="text-dark fw-bold text-end chevron_down"
+              style="cursor: pointer"
+            >
+              <div class="badge fs-4 text-dark px-lg-2 mx-lg-4 d-inline">
+                See More <i class="fa fa-solid fa-chevron-down"></i>
+              </div>
+            </span>
+          </div>
+        </div>
+        <hr class="text-dark mt-3" />
+        <!-- Col2 Ends Here -->
+        <!-- Seetings Starts Here  -->
+        <ul
+          class="fw-bold h3 fs-3 text-wrap mt-3 d-inline col-sm-12 Settings"
+          style="
+            font-family: Roboto Mono, serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+          "
+        >
+          <i class="fa-solid fa-gear fa pl-2"></i>
+          Settings
+        </ul>
+        <li class="d-flex justify-content-between py-3 fw-bold py-1">
+          <a
+            href="#"
+            class="text-decoration-none text-secondary fw-bold px-3 lead"
+            ><i class="fa fs-3 px-2 fa-solid fa-user"></i>Your Account
+          </a>
+        </li>
+        <hr />
+        <li class="d-flex justify-content-between fw-bold py-1">
+          <a
+            href="#"
+            class="text-decoration-none text-center text-secondary fw-bold px-3 lead"
+            ><i class="fa fs-3 px-2 fa-solid fa-globe"></i>EN</a
+          >
+        </li>
+        <hr />
+        <li class="d-flex justify-content-between fw-bold py-1">
+          <a
+            href="#"
+            class="text-decoration-none text-secondary fw-bold px-3 lead"
+            ><i class="fa fs-3 px-1 fa-solid fa-wrench"></i>Customer Service</a
+          >
+        </li>
+
+        <hr />
+        <li class="d-flex justify-content-between fw-bold py-1">
+          <a
+            href="#"
+            class="text-decoration-none text-secondary fw-bold px-3 lead"
+          >
+            <i class="fa fs-3 px-2 fa-solid fa-outdent"></i>Sign out
+          </a>
+          <br />
+        </li>
+
+        <!-- Settings Ends Here  -->
+      </div>
+
+      <!-- Row Ends Here  -->
+    </div>
+
+    <script>
+      // See Morew
+      const see_more = document.querySelector(".see_more");
+      const see_more_chevron_down = document.querySelector(".chevron_down");
+      see_more_chevron_down.addEventListener("click", () => {
+        see_more_chevron_down.classList.add("d-none");
+        see_more.classList.remove("d-none");
+      });
+      // End Of See More
+
+      // Showing All Contents
+      const topBar = document.querySelector(".topBar");
+      const innerNavBar = document.querySelector(".innerNavBar");
+      const innerNavBarToggle = document.querySelector(".innerNavBarToggle");
+      const innerPage = document.querySelector(".innerPage");
+      innerNavBarToggle.addEventListener("click", () => {
+        if (innerPage.classList.contains("d-none")) {
+          topBar.style.opacity = 0.3;
+          innerNavBar.style.opacity = 0.2;
+          //   openingsCarousel.style.opacity = 0.3;
+          innerPage.classList.remove("d-none");
+        } else {
+          topBar.style.opacity = 1;
+          if (see_more_chevron_down.classList.contains("d-none")) {
+            see_more.classList.add("d-none");
+            see_more_chevron_down.classList.remove("d-none");
+          } else see_more_chevron_down.classList.add("d-none");
+          innerNavBar.style.opacity = 1;
+          //   openingsCarousel.style.opacity = 1;
+          innerPage.classList.add("d-none");
+        }
+      });
+
+      // End Of Showing All Contents
+
+      // Dynamic result;
+      // Trie Function
+      const Showd_Content = [];
+
+      const insertWord = (root, word) => {
+        // Keep References
+        var current = root;
+        if (current === null || word === null) return;
+        for (let i = 0; i < word.length; i++) {
+          // If it Not Have Create The Key
+          if (current["children"][word.charAt(i).toLowerCase()] == undefined) {
+            current["children"][word.charAt(i).toLowerCase()] = {
+              children: {},
+            };
+          }
+          current = current["children"][word.charAt(i).toLowerCase()];
+        }
+        current["children"]["word"] = word;
+        // Seeting it is as Complete Words
+      };
+      // Searching The Word
+      const searchWord = (root, word) => {
+        if (word === undefined || word === null) return;
+        const Array = [];
+        var current = root["children"][word.charAt(0).toLowerCase()];
+        document.querySelector(".search_options").innerHTML = "";
+        const innerRecursionToFindOutTheProductName = (root) => {
+          if (root == null) return;
+          if (root.children.word !== undefined) Array.push(root.children.word);
+          for (let i = 97; i <= 122; i++) {
+            const char = String.fromCharCode(i);
+            if (root["children"][char] != undefined)
+              innerRecursionToFindOutTheProductName(root["children"][char]);
+          }
+        };
+        innerRecursionToFindOutTheProductName(current);
+
+        const search_options = document.querySelector(".search_options");
+
+        for (let i = 0; i < 5; i++) {
+          console.log(Array);
+          if (Array == null || Array[i] === undefined) return;
+          // if(Showd_Content.includes(Array[i])) continue;
+          else Showd_Content.push(Array[i]);
+          const options_content = `<span class="  mx-2 fw-bold text-center" ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black" style="margin-left : 2"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>${Array[i]}</span><hr class="text-black">`;
+          const option_tag = document.createElement("div");
+          option_tag.classList.add("reduce_length");
+          option_tag.innerHTML = options_content;
+          search_options.appendChild(option_tag);
+        }
+      };
+      // Closing The Searches Of Window
+
+      const Trie = (word) => {
+        var root = { children: {} };
+        insertWord(root, "Laptops");
+        insertWord(root, "Mobilephones");
+        insertWord(root, "Menscloths");
+        insertWord(root, "Womenscloths");
+        insertWord(root, "Watches");
+        insertWord(root, "Earbuds");
+        insertWord(root, "Petsupplies");
+        insertWord(root, "Electronics");
+        insertWord(root, "Ebooks");
+        searchWord(root, word);
+      };
+
+      Trie();
+
+      // Listening The SearchBar Events
+
+      const searchBar = document.querySelector("#searchBar");
+      searchBar.addEventListener("input", () => {
+        if (searchBar.value == null || searchBar.value == "")
+          document.querySelector(".search_options").innerHTML = " ";
+        else Trie(searchBar.value);
+      });
+      // End Of Trie Function
+    </script>
+    <script src="../HomePage/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  Bootstrap Scripts Ends Here -->
+  </body>
+</html>

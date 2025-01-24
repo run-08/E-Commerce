@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+.logoName {
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+.logoName:hover {
+  transform: scale(1.1);
+}
+input {
+  font-family: Roboto Mono, serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+}
+input::placeholder {
+  font-weight: 600;
+}
+.logoName::selection {
+  background-color: white;
+  color: black;
+}
+.responsive-width {
+  width: 75%; /* Default width for extra small and small screens */
+}
+
+@media (min-width: 768px) {
+  .responsive-width {
+    width: 50%; /* Medium screens and larger */
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-width {
+    width: 25%; /* Extra large screens and larger */
+  }
+}
+.zoomOutProducts {
+  transition: transform 0.3s ease;
+}
+.zoomOutProducts:hover {
+  transform: scale(1.1);
+}
