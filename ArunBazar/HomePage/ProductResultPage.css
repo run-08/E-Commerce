@@ -126,3 +126,14 @@ label {
     position: absolute;
   }
 }
+.other_technical_details > div > table {
+  margin-top: -16px;
+}
+.table_summary_details > div > table {
+  margin-top: -16px;
+}
+.table_additional_details > div > table {
+  margin-top: -16px;
+}
+.table_additional_details > div > table > tr > td {
+}
